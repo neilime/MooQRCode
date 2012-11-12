@@ -3,7 +3,7 @@
 MooQrCode is a mootools plugin that allow you to create qrcode.
 It is based on QR Code Generator for JavaScript by http://www.d-project.com/
 
-Now look at an <a href='https://github.com/jeromeetienne/jquery-qrcode/blob/master/examples/exemple.html'>example</a>
+Now look at an <a href='https://github.com/neilime/MooQRCode/blob/master/examples/exemple.html'>example</a>
 
 How to use (Fast & Easy)
 ----------
@@ -19,9 +19,11 @@ How to use (Fast & Easy)
 
 //Let the script do the job 
 
-document.id(window).addEvent('domready',function(){				
-	document.id('QR_black').qrCode({'width':50,'height':50,'value':'This is an encrypted value'});
-});	
+<script type="text/javascript">
+	document.id(window).addEvent('domready',function(){				
+		document.id('QR_black').qrCode({'width':50,'height':50,'value':'This is an encrypted value'});
+	});
+</script>
 
 //That's all !
 

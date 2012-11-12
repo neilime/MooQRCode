@@ -52,7 +52,7 @@ MooQRCode = new Class({
 	 */
 	destroy : function(){
 		if(this.table != null)this.table.destroy();
-		else(this.canvas != null)this.canvas.destroy();
+		else if(this.canvas != null)this.canvas.destroy();
 		return this;
 	},
 	
@@ -88,8 +88,6 @@ MooQRCode = new Class({
 	}.protect(),
 
 	buildTable	: function(){
-		var iBorderWidth = ((this.options.width + this.options.height) / 20).toInt(); // 10% of the average(width, height)
-		
 		this.table = new Element('table',{
 			'styles':{
 				'width':this.options.width+'px',

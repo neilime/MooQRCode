@@ -46,8 +46,14 @@ MooQRCode = new Class({
 		}
 	},
 	
+	/**
+	 * Destroy QrCode render
+	 * @returns MooQRCode
+	 */
 	destroy : function(){
-	
+		if(this.table != null)this.table.destroy();
+		else(this.canvas != null)this.canvas.destroy();
+		return this;
 	},
 	
 	buildQrCode : function(){

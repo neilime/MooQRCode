@@ -1,0 +1,13 @@
+name: MooQRCode
+author: neilime
+current: 0.1
+category: Widgets
+tags: [QRCode]
+demo: http://neilime.github.com/MooQRCode/exemple.html
+docs: http://neilime.github.com/MooQRCode/
+license: MIT
+description: Mootools standalone qrcode generation 
+
+sources:
+  - "Source/qrcode.js"
+  - "Source/class.qrcode.js"

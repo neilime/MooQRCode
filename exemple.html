@@ -12,7 +12,7 @@
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 	<script src="//ajax.googleapis.com/ajax/libs/mootools/1.4.5/mootools-yui-compressed.js"></script>
-	<script type="text/javascript" src="mooqrcode.min.js"></script>
+	<script type="text/javascript" src="javascripts/mooqrcode.min.js"></script>
 	<script type="text/javascript">
 		document.id(window).addEvent('domready',function(){	
 			document.id('QR_black').qrCode({'width':50,'height':50,'value':'This is an encrypted value'});
@@ -52,7 +52,13 @@ document.id('QR_black').qrCode({
 		<p>
 			<h4>QR Code with custom colors</h4>
 			<pre><code>
-				document.id('QR_red').qrCode({'width':50,'height':50,'value':'This is an encrypted value','color':'red','backgroundColor':'black'});
+document.id('QR_red').qrCode({
+	'width':50,
+	'height':50,
+	'value':'This is an encrypted value',
+	'color':'red',
+	'backgroundColor':'black'
+});
 			</code></pre>
 			<div id="QR_red"></div>
 		</p>

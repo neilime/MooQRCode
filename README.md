@@ -19,11 +19,10 @@ How to use (Fast & Easy)
 
 //Let the script do the job 
 
-<script type="text/javascript">
+	#JS
 	document.id(window).addEvent('domready',function(){				
 		document.id('QR_black').qrCode({'width':50,'height':50,'value':'This is an encrypted value'});
 	});
-</script>
 
 //That's all !
 

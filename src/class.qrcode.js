@@ -13,7 +13,7 @@ MooQRCode = new Class({
 	},
 	
 	RENDER_CAVAS : 'canvas',
-	RENDER_TABLE : 'table'
+	RENDER_TABLE : 'table',
 	
 	qrCode : null,
 	canvas : null,

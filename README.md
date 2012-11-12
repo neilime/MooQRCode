@@ -5,8 +5,9 @@ It is based on QR Code Generator for JavaScript by http://www.d-project.com/
 
 Now look at an <a href='http://neilime.github.com/MooQRCode/exemple.html'>example</a>
 
-How to use (Fast & Easy)
+How to use
 ----------
+(Fast & Easy)
 
 //First, include required js files (Mootools & MooQrCode)
     

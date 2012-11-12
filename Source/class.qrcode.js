@@ -46,6 +46,10 @@ MooQRCode = new Class({
 		}
 	},
 	
+	destroy : function(){
+	
+	},
+	
 	buildQrCode : function(){
 		// create the qrcode itself
 		this.qrCode	= new QRCode(this.options.typeNumber, this.options.correctLevel);

@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Mooqrcode by neilime</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Mooqrcode</h1>
+        <p>Mootools standalone qrcode generation </p>
+
+        <p class="view"><a href="https://github.com/neilime/MooQRCode">View the Project on GitHub <small>neilime/MooQRCode</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/neilime/MooQRCode/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/neilime/MooQRCode/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/neilime/MooQRCode">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>MooQrCode</h1>
+
+<p>MooQrCode is a mootools plugin that allow you to create qrcode.
+It is based on QR Code Generator for JavaScript by <a href="http://www.d-project.com/">http://www.d-project.com/</a></p>
+
+<p>Now look at an <a href="https://github.com/neilime/MooQRCode/blob/master/examples/exemple.html">example</a></p>
+
+<h2>How to use (Fast &amp; Easy)</h2>
+
+<p>//First, include required js files (Mootools &amp; MooQrCode)</p>
+
+<pre><code>&lt;script type="text/javascript" src="mootools.core.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="mooqrcode.min.js"&gt;&lt;/script&gt;
+</code></pre>
+
+<p>//Then create a container for the QRCode</p>
+
+<pre><code>&lt;div id="QR_black"&gt;&lt;/div&gt;
+</code></pre>
+
+<p>//Let the script do the job </p>
+
+
+    document.id(window).addEvent('domready',function(){             
+        document.id('QR_black').qrCode({'width':50,'height':50,'value':'This is an encrypted value'});
+    });
+<p>//That's all !</p>
+
+<h2>Class: MooQrCode</h2>
+
+<h3>Syntax</h3>
+
+<pre><code>#JS
+var oQrCode = new MooQRCode([options]);
+</code></pre>
+
+<h3>Arguments</h3>
+
+<ol>
+<li>options: (*object*, optional) The options object</li>
+</ol><h3>Options:</h3>
+
+<ul>
+<li>value : (*string*, defaults to <code>null</code>) The value to be encrypted into QRCode.</li>
+<li>typeNumber: (*int*, defaults to <code>-1</code>) 1 to 10, if typeNumber &lt; 1, it will be calculate automatically, else higher the type number, more data can be stored.</li>
+<li>correctLevel: (*string*, defaults to <code>H</code>) error Correct Level L, M, Q, H.</li>
+<li>width: (*int*, defaults to <code>256</code>) QR Code width.</li>
+<li>height: (*int*, defaults to <code>256</code>) QR Code height.</li>
+<li>render: (*string*, defaults to <code>canvas</code>) rendering mode, canvas or table.</li>
+<li>color: (*string*, defaults to <code>#000000</code>) QR Code color.</li>
+<li>backgroundColor: (*string*, defaults to <code>#FFFFFF</code>) QR Code background color.</li>
+<li>container: (*HTMLElement*, <em>string</em>, defaults to <code>null</code>) Qr Code container element.</li>
+</ul><h3>Events:</h3>
+
+<ul>
+<li>onQrCodeReady: Will fire when the QR Code is ready (after rendrering)</li>
+</ul>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/neilime">neilime</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>

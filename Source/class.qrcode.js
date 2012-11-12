@@ -1,3 +1,12 @@
+/*
+---
+name: MooQRCode
+description: Creates a QRCode
+authors: Neilime
+requires: [Core/Element]
+provides: MooQRCode
+...
+*/
 MooQRCode = new Class({
 	Implements: [Options, Events],
 	options: {

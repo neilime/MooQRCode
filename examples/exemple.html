@@ -1,0 +1,20 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<script type="text/javascript" src="mootools.core.js"></script>
+		<script type="text/javascript" src="mooqrcode.min.js"></script>
+		<script type="text/javascript">
+			document.id(window).addEvent('domready',function(){				
+				document.id('QR_black').qrCode({'width':50,'height':50,'value':'This is an encrypted value'});
+				document.id('QR_red').qrCode({'width':50,'height':50,'value':'This is an encrypted value','color':'red','backgroundColor':'black'});
+			});	
+		</script>
+		<title></title>
+	</head>
+	<body>	
+		<h3>Simple QR COde</h3>
+		<div id="QR_black"></div>		
+		<h3>QR Code with custom colors</h3>
+		<div id="QR_red"></div>
+	</body>
+</html>

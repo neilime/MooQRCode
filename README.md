@@ -3,7 +3,7 @@
 MooQrCode is a mootools plugin that allow you to create qrcode.
 It is based on QR Code Generator for JavaScript by http://www.d-project.com/
 
-![Screenshot](https://github.com/neilime/MooQRCode/raw/master/logo.png)
+<a href='https://pledgie.com/campaigns/26669'><img alt='Click here to lend your support to: MooQrCode and make a donation at pledgie.com !' src='https://pledgie.com/campaigns/26669.png?skin_name=chrome' border='0' ></a>
 
 Now look at an <a href='http://neilime.github.com/MooQRCode/exemple.html'>example</a>
 

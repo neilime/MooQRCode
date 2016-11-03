@@ -5,34 +5,28 @@ It is based on QR Code Generator for JavaScript by http://www.d-project.com/
 
 <a href='https://pledgie.com/campaigns/26669'><img alt='Click here to lend your support to: MooQrCode and make a donation at pledgie.com !' src='https://pledgie.com/campaigns/26669.png?skin_name=chrome' border='0' ></a>
 
-Now look at an <a href='http://neilime.github.com/MooQRCode/exemple.html'>example</a>
+Now look at an [example](http://neilime.github.com/MooQRCode/exemple.html).
 
 # How to use
 
 (Fast & Easy)
 
-1. First, include required js files (Mootools & MooQrCode)
-
+* First, include required js files (Mootools & MooQrCode)
 ```html
 <script type="text/javascript" src="mootools.core.js"></script>
 <script type="text/javascript" src="mooqrcode.min.js"></script>
 ```
-
-2. Then create a container for the QRCode
-
+* Then create a container for the QRCode
 ```html
 <div id="QR_black"></div>
 ```
-
-3. Let the script do the job 
-
+* Let the script do the job 
 ```js
 document.id(window).addEvent('domready',function(){				
     document.id('QR_black').qrCode({'width':50,'height':50,'value':'This is an encrypted value'});
 });
 ```
-
-4. That's all !
+* That's all !
 
 # Class: MooQrCode
 

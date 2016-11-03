@@ -33,8 +33,9 @@ Now look at an <a href='http://neilime.github.com/MooQRCode/exemple.html'>exampl
 
 ## Syntax
 
-	#JS
-	var oQrCode = new MooQRCode([options]);
+```js
+var oQrCode = new MooQRCode([options]);
+```
 
 ## Arguments
 

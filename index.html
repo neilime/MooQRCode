@@ -4,13 +4,13 @@
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <title>MooQRCode by neilime</title>
+    <title>Mooqrcode by neilime</title>
   </head>
 
   <body>
@@ -18,7 +18,7 @@
       <div class="inner">
 
         <header>
-          <h1>MooQRCode</h1>
+          <h1>Mooqrcode</h1>
           <h2>Mootools standalone qrcode generation </h2>
         </header>
 
@@ -31,72 +31,95 @@
         <hr>
 
         <section id="main_content">
-          <h1>MooQRCode</h1>
+          <h1>
+<a id="mooqrcode" class="anchor" href="#mooqrcode" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>MooQrCode</h1>
 
 <p>MooQrCode is a mootools plugin that allow you to create qrcode.
 It is based on QR Code Generator for JavaScript by <a href="http://www.d-project.com/">http://www.d-project.com/</a></p>
 
-<a href='https://pledgie.com/campaigns/26669'><img alt='Click here to lend your support to: MooQrCode and make a donation at pledgie.com !' src='https://pledgie.com/campaigns/26669.png?skin_name=chrome' border='0' ></a>
+<p><a href="https://pledgie.com/campaigns/26669"><img alt="Click here to lend your support to: MooQrCode and make a donation at pledgie.com !" src="https://pledgie.com/campaigns/26669.png?skin_name=chrome" border="0"></a></p>
 
-<p>Now look at an <a href="http://neilime.github.com/MooQRCode/exemple.html">example</a></p>
+<p>Now look at an <a href="http://neilime.github.com/MooQRCode/exemple.html">example</a>.</p>
 
-<h2>How to use (Fast &amp; Easy)</h2>
+<h1>
+<a id="how-to-use" class="anchor" href="#how-to-use" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to use</h1>
 
-<p>//First, include required js files (Mootools &amp; MooQrCode)</p>
+<p>(Fast &amp; Easy)</p>
 
-<pre><code>&lt;script type="text/javascript" src="mootools.core.js"&gt;&lt;/script&gt;
-&lt;script type="text/javascript" src="mooqrcode.min.js"&gt;&lt;/script&gt;
-</code></pre>
+<ul>
+<li>First, include required js files (Mootools &amp; MooQrCode)</li>
+</ul>
 
-<p>//Then create a container for the QRCode</p>
+<div class="highlight highlight-text-html-basic"><pre>&lt;<span class="pl-ent">script</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">"</span>text/javascript<span class="pl-pds">"</span></span> <span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">"</span>mootools.core.js<span class="pl-pds">"</span></span>&gt;&lt;/<span class="pl-ent">script</span>&gt;
+&lt;<span class="pl-ent">script</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">"</span>text/javascript<span class="pl-pds">"</span></span> <span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">"</span>mooqrcode.min.js<span class="pl-pds">"</span></span>&gt;&lt;/<span class="pl-ent">script</span>&gt;</pre></div>
 
-<pre><code>&lt;div id="QR_black"&gt;&lt;/div&gt;
-</code></pre>
+<ul>
+<li>Then create a container for the QRCode</li>
+</ul>
 
-<p>//Let the script do the job </p>
+<div class="highlight highlight-text-html-basic"><pre>&lt;<span class="pl-ent">div</span> <span class="pl-e">id</span>=<span class="pl-s"><span class="pl-pds">"</span>QR_black<span class="pl-pds">"</span></span>&gt;&lt;/<span class="pl-ent">div</span>&gt;</pre></div>
 
-<pre><code>#JS
-document.id(window).addEvent('domready',function(){             
-    document.id('QR_black').qrCode({'width':50,'height':50,'value':'This is an encrypted value'});
-});
-</code></pre>
+<ul>
+<li>Let the script do the job </li>
+</ul>
 
-<p>//That's all !</p>
+<div class="highlight highlight-source-js"><pre><span class="pl-c1">document</span>.<span class="pl-c1">id</span>(<span class="pl-c1">window</span>).<span class="pl-en">addEvent</span>(<span class="pl-s"><span class="pl-pds">'</span>domready<span class="pl-pds">'</span></span>,<span class="pl-k">function</span>(){             
+    <span class="pl-c1">document</span>.<span class="pl-c1">id</span>(<span class="pl-s"><span class="pl-pds">'</span>QR_black<span class="pl-pds">'</span></span>).<span class="pl-en">qrCode</span>({<span class="pl-s"><span class="pl-pds">'</span>width<span class="pl-pds">'</span></span><span class="pl-k">:</span><span class="pl-c1">50</span>,<span class="pl-s"><span class="pl-pds">'</span>height<span class="pl-pds">'</span></span><span class="pl-k">:</span><span class="pl-c1">50</span>,<span class="pl-s"><span class="pl-pds">'</span>value<span class="pl-pds">'</span></span><span class="pl-k">:</span><span class="pl-s"><span class="pl-pds">'</span>This is an encrypted value<span class="pl-pds">'</span></span>});
+});</pre></div>
 
-<h2>Class: MooQrCode</h2>
+<ul>
+<li>That's all !</li>
+</ul>
 
-<h3>Syntax</h3>
+<h1>
+<a id="class-mooqrcode" class="anchor" href="#class-mooqrcode" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Class: MooQrCode</h1>
 
-<pre><code>#JS
-var oQrCode = new MooQRCode([options]);
-</code></pre>
+<h2>
+<a id="syntax" class="anchor" href="#syntax" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Syntax</h2>
 
-<h3>Arguments</h3>
+<div class="highlight highlight-source-js"><pre><span class="pl-k">var</span> oQrCode <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-en">MooQRCode</span>([options]);</pre></div>
+
+<h2>
+<a id="arguments" class="anchor" href="#arguments" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Arguments</h2>
 
 <ol>
-<li>options: (*object*, optional) The options object</li>
-</ol><h3>Options:</h3>
+<li>options: (<em>object</em>, optional) The options object</li>
+</ol>
+
+<h3>
+<a id="options" class="anchor" href="#options" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Options:</h3>
 
 <ul>
-<li>value : (*string*, defaults to <code>null</code>) The value to be encrypted into QRCode.</li>
-<li>typeNumber: (*int*, defaults to <code>-1</code>) 1 to 10, if typeNumber &lt; 1, it will be calculate automatically, else higher the type number, more data can be stored.</li>
-<li>correctLevel: (*string*, defaults to <code>H</code>) error Correct Level L, M, Q, H.</li>
-<li>width: (*int*, defaults to <code>256</code>) QR Code width.</li>
-<li>height: (*int*, defaults to <code>256</code>) QR Code height.</li>
-<li>render: (*string*, defaults to <code>canvas</code>) rendering mode, canvas or table.</li>
-<li>color: (*string*, defaults to <code>#000000</code>) QR Code color.</li>
-<li>backgroundColor: (*string*, defaults to <code>#FFFFFF</code>) QR Code background color.</li>
-<li>container: (*HTMLElement*, <em>string</em>, defaults to <code>null</code>) Qr Code container element.</li>
-</ul><h3>Events:</h3>
+<li>value : (<em>string</em>, defaults to <code>null</code>) The value to be encrypted into QRCode.</li>
+<li>typeNumber: (<em>int</em>, defaults to <code>-1</code>) 1 to 10, if typeNumber &lt; 1, it will be calculate automatically, else higher the type number, more data can be stored.</li>
+<li>correctLevel: (<em>int</em>, defaults to <code>2</code>) error Correct Level :
 
 <ul>
-<li>onQrCodeReady: Will fire when the QR Code is ready (after rendrering)</li>
+<li>M: 0</li>
+<li>L: 1</li>
+<li>H: 2</li>
+<li>Q: 3</li>
+</ul>
+</li>
+<li>width: (<em>int</em>, defaults to <code>256</code>) QR Code width.</li>
+<li>height: (<em>int</em>, defaults to <code>256</code>) QR Code height.</li>
+<li>render: (<em>string</em>, defaults to <code>canvas</code>) rendering mode, canvas or table.</li>
+<li>color: (<em>string</em>, defaults to <code>#000000</code>) QR Code color.</li>
+<li>backgroundColor: (<em>string</em>, defaults to <code>#FFFFFF</code>) QR Code background color.</li>
+<li>container: (<em>HTMLElement</em>, <em>string</em>, defaults to <code>null</code>) Qr Code container element.</li>
+</ul>
+
+<h2>
+<a id="events" class="anchor" href="#events" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Events:</h2>
+
+<ul>
+<li>onQrCodeReady: Will be fired when the QR Code is ready (after rendrering)</li>
 </ul>
         </section>
 
         <footer>
           Mooqrcode is maintained by <a href="https://github.com/neilime">neilime</a><br>
-          This page was generated by <a href="http://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="http://twitter.com/jasonlong">Jason Long</a>.
+          This page was generated by <a href="https://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
         </footer>
 
         

@@ -12,20 +12,25 @@ Now look at an <a href='http://neilime.github.com/MooQRCode/exemple.html'>exampl
 (Fast & Easy)
 
 1. First, include required js files (Mootools & MooQrCode)
-    
-    <script type="text/javascript" src="mootools.core.js"></script>
-	<script type="text/javascript" src="mooqrcode.min.js"></script>
+
+```html
+<script type="text/javascript" src="mootools.core.js"></script>
+<script type="text/javascript" src="mooqrcode.min.js"></script>
+```
 
 2. Then create a container for the QRCode
 
-	<div id="QR_black"></div>
+```html
+<div id="QR_black"></div>
+```
 
 3. Let the script do the job 
 
-	#JS
-	document.id(window).addEvent('domready',function(){				
-		document.id('QR_black').qrCode({'width':50,'height':50,'value':'This is an encrypted value'});
-	});
+```js
+document.id(window).addEvent('domready',function(){				
+    document.id('QR_black').qrCode({'width':50,'height':50,'value':'This is an encrypted value'});
+});
+```
 
 4. That's all !
 
@@ -59,4 +64,4 @@ var oQrCode = new MooQRCode([options]);
 
 ## Events:
 
-- onQrCodeReady: Will fire when the QR Code is ready (after rendrering)
+- onQrCodeReady: Will be fired when the QR Code is ready (after rendrering)

@@ -1,0 +1,8 @@
+title: Mooqrcode
+description: "Mootools standalone qrcode generation "
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-tactile
+
+gems:
+  - jekyll-mentions

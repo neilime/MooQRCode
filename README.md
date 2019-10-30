@@ -1,4 +1,7 @@
-# MooQrCode
+<p align="center">
+  <a href="https://github.com/neilime/easy-win-setup" target="_blank"><img src="https://repository-images.githubusercontent.com/6654459/b6fa3980-fafe-11e9-8b37-4435e5b9d5c3" width="600"></a>
+</p>
+
 
 [![GitHub stars](https://img.shields.io/github/stars/neilime/MooQRCode)](https://github.com/neilime/MooQRCode)
 [![License](https://img.shields.io/github/license/neilime/MooQRCode)](LICENSE)

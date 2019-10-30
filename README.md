@@ -1,5 +1,11 @@
 # MooQrCode
 
+[![Downloads](https://img.shields.io/github/downloads/neilime/MooQRCode/total)](https://github.com/neilime/MooQRCode/releases)
+[![GitHub stars](https://img.shields.io/github/stars/neilime/MooQRCode)](https://github.com/neilime/MooQRCode)
+[![License](https://img.shields.io/github/license/neilime/MooQRCode)](LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![Sponsor](https://img.shields.io/badge/%E2%9D%A4-Sponsor-ff69b4)](https://github.com/sponsors/neilime) 
+
 MooQrCode is a mootools plugin that allow you to create qrcode.
 It is based on QR Code Generator for JavaScript by http://www.d-project.com/
 

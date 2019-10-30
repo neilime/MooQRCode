@@ -14,9 +14,13 @@ Now look at an [example](http://neilime.github.com/MooQRCode/exemple.html).
 
 ❤️ If this project helps you reduce time to develop and/or you want to help the maintainer of this project. You can [sponsor](https://github.com/sponsors/neilime) him. Thank you !
 
+# Contributing
+
+👍 If you wish to contribute to TwbsHelper, PRs are welcome! Please read the [CONTRIBUTING.md](CONTRIBUTING.md) file.
+
 # How to use
 
-(Fast & Easy)
+🚀 (Fast & Easy)
 
 * First, include required js files (Mootools & MooQrCode)
 ```html

@@ -1,15 +1,26 @@
 # MooQrCode
 
+[![GitHub stars](https://img.shields.io/github/stars/neilime/MooQRCode)](https://github.com/neilime/MooQRCode)
+[![License](https://img.shields.io/github/license/neilime/MooQRCode)](LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![Sponsor](https://img.shields.io/badge/%E2%9D%A4-Sponsor-ff69b4)](https://github.com/sponsors/neilime) 
+
 MooQrCode is a mootools plugin that allow you to create qrcode.
 It is based on QR Code Generator for JavaScript by http://www.d-project.com/
 
-<a href='https://pledgie.com/campaigns/26669'><img alt='Click here to lend your support to: MooQrCode and make a donation at pledgie.com !' src='https://pledgie.com/campaigns/26669.png?skin_name=chrome' border='0' ></a>
-
 Now look at an [example](http://neilime.github.com/MooQRCode/exemple.html).
+
+# Helping Project
+
+❤️ If this project helps you reduce time to develop and/or you want to help the maintainer of this project. You can [sponsor](https://github.com/sponsors/neilime) him. Thank you !
+
+# Contributing
+
+👍 If you wish to contribute to TwbsHelper, PRs are welcome! Please read the [CONTRIBUTING.md](CONTRIBUTING.md) file.
 
 # How to use
 
-(Fast & Easy)
+🚀 (Fast & Easy)
 
 * First, include required js files (Mootools & MooQrCode)
 ```html

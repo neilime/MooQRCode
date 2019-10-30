@@ -1,6 +1,5 @@
 # MooQrCode
 
-[![Downloads](https://img.shields.io/github/downloads/neilime/MooQRCode/total)](https://github.com/neilime/MooQRCode/releases)
 [![GitHub stars](https://img.shields.io/github/stars/neilime/MooQRCode)](https://github.com/neilime/MooQRCode)
 [![License](https://img.shields.io/github/license/neilime/MooQRCode)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
